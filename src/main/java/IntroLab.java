@@ -49,6 +49,11 @@ public class IntroLab {
                 "Welcome to CSC207!");
     }
 
+    public static String limdavi6() {
+        return printLabMessage("Hello", "David Lim", true,
+                "Welcome to CSC207!");
+    }
+
 
     public static void main(final String[] args) {
         System.out.println(exampleStudent());
@@ -59,8 +64,9 @@ public class IntroLab {
          * As a reference, we've provided a sample call to exampleStudent
          * above. Afterwards: run this file to see the output!
          */
+        System.out.println(limdavi6());
 
-
+        
     }
 
     // TODO: Go to test/java/IntroLabTest.java afterwards and complete the TODO.
